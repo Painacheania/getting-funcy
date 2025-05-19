@@ -1,12 +1,62 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let a = 5
+let b = 5
+let c = 0
+let name = "Jason"
+let lastName = "Alvarez"
+let trafficLight = "red"
+function addition(){
+  c = a + b
+  console.log(c)
+}
+addition()
 
+function subtraction(){
+      c = a - b
+      console.log(c)
+}
 
+subtraction()
 
+function multiplication(){
+  c = a * b
+  console.log(c)
+}
 
+multiplication()
 
+function division(){
+  c = a / b
+  console.log(c)
+}
 
+division()
+
+function incrementA(){
+  c = a + 1
+}
+
+incrementA()
+
+function incrementB(){
+  c = b + 1
+}
+
+incrementB()
+
+function fullName(){
+  console.log(name + " " + lastName)
+}
+
+fullName()
+
+function lightChange(){
+  trafficLight = "green"
+}
+
+lightChange()
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
